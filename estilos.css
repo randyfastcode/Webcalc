@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(231, 231, 231, 0.884);
+}
+p{
+    margin-bottom: 42%;
+    margin-right: 88%;
+    font-size: 22px;
+    font-weight: bold;
+
+ }
+
+.heading{
+    background-color: white;
+}
+ 
+.calculadora{
+    position: absolute;
+    margin-top: 7%;
+    height: 600px;
+    width: 400px;
+    background-color: #1d1d1d;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.result-bar{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+
+.result-bar span{
+    font-size: 70px;
+}
+
+
+.controls{
+    height: 390px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 97.7px);
+    grid-gap: 3px;
+   
+}
+
+input{
+    width: 98%;
+    font-size: 30px;
+    color: white;
+    border: none;
+    border-radius: 75px;
+}
+
+input:focus{
+    outline: none;
+    border-color: #111111;;
+}
+
+input:hover{
+    filter: brightness(130%);
+}
+
+.operador{
+    background-color: rgba(255, 166, 0, 0.849);
+
+}
+
+.btneliminar{
+    width: 100%;
+    height: 60px;
+    background-color: #181818;
+    margin-bottom: 3px;
+}
+
+.numero{
+    background-color: #181818;
+}
+
+.result{
+    border-radius: 5px;
+    background-color: rgb(119, 119, 119);
+    width:100%
+    
+}
